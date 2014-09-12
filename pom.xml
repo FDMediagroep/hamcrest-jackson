@@ -4,7 +4,7 @@
 
     <groupId>nl.fd</groupId>
     <artifactId>hamcrest-jackson</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <description>Hamcrest add-on to elegantly perform assertions on Json nodes</description>
