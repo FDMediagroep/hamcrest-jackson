@@ -60,7 +60,7 @@
         <snapshotRepository>
             <id>info.company.snapshots</id>
             <name>Company.info snapshots repository</name>
-            <url>http://nexus.dev.company.info:8080/nexus/content/repositories/snapshot</url>
+            <url>http://nexus.dev.company.info:8080/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
