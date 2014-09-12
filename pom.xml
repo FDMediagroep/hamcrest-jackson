@@ -83,7 +83,7 @@
     <scm>
         <url>https://github.com/FDMediagroep/hamcrest-jackson</url>
         <connection>scm:git:git@github.com:FDMediagroep/hamcrest-jackson.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:FDMediagroep/hamcrest-jackson.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:FDMediagroep/hamcrest-jackson.git</developerConnection>
     </scm>
 
 </project>
