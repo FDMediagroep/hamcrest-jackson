@@ -25,7 +25,7 @@ public class HasJsonField extends TypeSafeDiagnosingMatcher<JsonNode> {
     protected boolean matchesSafely(JsonNode item, Description mismatchDescription) {
         JsonNode jsonNode = item.get(fieldName);
         if (jsonNode == null) {
-            mismatchDescription.appendText("no ").appendText(fieldName).appendText(" in ").appendValue(item);
+            mismatchDescription.appendText("no ").appendText(fieldName).appendText(" found");
             return false;
         }
         if (!valueMatcher.matches(jsonNode)) {
@@ -38,7 +38,7 @@ public class HasJsonField extends TypeSafeDiagnosingMatcher<JsonNode> {
 
     @Override
     public void describeTo(Description description) {
-        description.appendText("hasJsonNode(").appendValue(fieldName).appendText(")");
+        description.appendText("hasJsonField(").appendValue(fieldName).appendText(")");
     }
 
     @Factory

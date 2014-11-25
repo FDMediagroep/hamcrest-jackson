@@ -83,7 +83,7 @@ public class HasJsonFieldTest {
         hasJsonFieldMatcher.describeTo(description);
 
         // Then
-        assertEquals("hasJsonNode(\"publisher\")", description.toString());
+        assertEquals("hasJsonField(\"publisher\")", description.toString());
     }
 
     @Test
