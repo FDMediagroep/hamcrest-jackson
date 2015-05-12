@@ -31,7 +31,7 @@ assertThat(queryNode,
 ###Matchers
 The following matchers are provided: 
   - **HasJsonField** Matcher for checking if an object has a JSON field.
-  - HasJsonField
+    - hasJsonField
   - **IsJsonArray** Matcher for checking if an object is a JSON array.
   - **IsJsonBoolean** Matcher for checking if an object is a JSON boolean.
   - **IsJsonInt** Matcher for checking if an object is a JSON integer.
