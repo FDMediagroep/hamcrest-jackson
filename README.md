@@ -33,7 +33,11 @@ The following matchers are provided:
   - **HasJsonField** Matcher for checking if an object has a JSON field.
     - hasJsonField
   - **IsJsonArray** Matcher for checking if an object is a JSON array.
+    - isJsonArray
   - **IsJsonBoolean** Matcher for checking if an object is a JSON boolean.
+    - isJsonBoolean
   - **IsJsonInt** Matcher for checking if an object is a JSON integer.
+    - isJsonInt
   - **IsJsonText** Matcher for checking if an object is a JSON integer. 
+    - isJsonText
  
