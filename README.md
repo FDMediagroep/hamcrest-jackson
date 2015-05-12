@@ -16,9 +16,9 @@ The JavaDoc can be found at: http://files2.fd.nl/development/hamcrest-jackson/ja
 ```
 ###Matchers
 The following matchers are provided: 
-  -**HasJsonField** Matcher for checking if an object has a JSON field.
-  -**IsJsonArray<T extends JsonNode>** Matcher for checking if an object is a JSON array.
-  -**IsJsonBoolean<T extends JsonNode>** Matcher for checking if an object is a JSON boolean.
-  -**IsJsonInt	** Matcher for checking if an object is a JSON integer.
-  -**IsJsonText<T extends JsonNode>** Matcher for checking if an object is a JSON integer. 
+  - **HasJsonField** Matcher for checking if an object has a JSON field.
+  - **IsJsonArray<T extends JsonNode>** Matcher for checking if an object is a JSON array.
+  - **IsJsonBoolean<T extends JsonNode>** Matcher for checking if an object is a JSON boolean.
+  - **IsJsonInt	** Matcher for checking if an object is a JSON integer.
+  - **IsJsonText<T extends JsonNode>** Matcher for checking if an object is a JSON integer. 
  
