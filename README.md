@@ -17,16 +17,15 @@ The JavaDoc can be found at: http://files2.fd.nl/development/hamcrest-jackson/ja
 ```
 
 ###Example Usage
-Here we provide a pseudocode sample to give you a rough idea how easy to use this library is.
+Here we provide a code sample to give you a rough idea how easy to use this library is.
 ```
 JsonNode queryNode = mapper.readTree(someQueryBuilder.toString());
 assertThat(queryNode,
-                hasJsonField("function_score",
-                    hasJsonField("query", isJsonText("apple jaarcijfers")),
-                    hasJsonField("fields",isJsonArray("title", "content")
-                    )
-                )
-        );
+    hasJsonField("function_score",
+        hasJsonField("query", isJsonText("apple annual figures")),
+        hasJsonField("fields",isJsonArray("title", "content"))
+    )
+);
 ```
 
 ###Matchers
