@@ -16,6 +16,11 @@ The JavaDoc can be found at: http://files2.fd.nl/development/hamcrest-jackson/ja
 </dependency>
 ```
 
+you can also download the latest release from:
+```
+http://files2.fd.nl/development/hamcrest-jackson/binaries/1.0.4/hamcrest-jackson-1.0.4.jar
+```
+
 ###Example Usage
 Here we provide a code sample to give you a rough idea how easy to use this library is.
 ```
