@@ -17,6 +17,14 @@
         <maven.plugins.version>2.5.1</maven.plugins.version>
     </properties>
 
+    <licenses>
+        <license>
+            <name>GNU GENERAL PUBLIC LICENSE, Version 2.0</name>
+            <url>https://www.gnu.org/licenses/gpl-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
