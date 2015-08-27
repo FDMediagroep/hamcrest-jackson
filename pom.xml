@@ -6,8 +6,33 @@
     <artifactId>hamcrest-jackson</artifactId>
     <version>1.0.5-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    <name>hamcrest-jackson</name>
     <description>Hamcrest add-on to elegantly perform assertions on Json nodes</description>
+    <url>http://www.fdmediagroep.nl</url>
+
+    <organization>
+        <name>FD Mediagroep</name>
+        <url>http://www.fdmediagroep.nl</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU GENERAL PUBLIC LICENSE, Version 2.0</name>
+            <url>https://www.gnu.org/licenses/gpl-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>fddev</id>
+            <name>FD Development</name>
+            <email>development@fd.nl</email>
+            <url>http://www.fd.nl</url>
+            <organization>FD Mediagroep</organization>
+            <organizationUrl>http://www.fd.nl</organizationUrl>
+        </developer>
+    </developers>
 
     <properties>
         <jackson.version>2.0.5</jackson.version>
@@ -17,14 +42,6 @@
         <maven.plugins.version>2.5.1</maven.plugins.version>
     </properties>
 
-    <licenses>
-        <license>
-            <name>GNU GENERAL PUBLIC LICENSE, Version 2.0</name>
-            <url>https://www.gnu.org/licenses/gpl-2.0.html</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-    
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
