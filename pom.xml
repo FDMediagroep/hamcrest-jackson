@@ -4,7 +4,7 @@
 
     <groupId>nl.fd</groupId>
     <artifactId>hamcrest-jackson</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>hamcrest-jackson</name>
     <description>Hamcrest add-on to elegantly perform assertions on Json nodes</description>
@@ -109,7 +109,7 @@
         <url>https://github.com/FDMediagroep/hamcrest-jackson</url>
         <connection>scm:git:git@github.com:FDMediagroep/hamcrest-jackson.git</connection>
         <developerConnection>scm:git:git@github.com:FDMediagroep/hamcrest-jackson.git</developerConnection>
-      <tag>hamcrest-jackson-1.0.5</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
