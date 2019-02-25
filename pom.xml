@@ -35,11 +35,12 @@
     </developers>
 
     <properties>
-        <jackson.version>2.0.5</jackson.version>
-        <java.version>1.7</java.version>
-        <junit.version>4.11</junit.version>
-        <hamcrest.version>1.2</hamcrest.version>
-        <maven.plugins.version>2.5.1</maven.plugins.version>
+        <jackson.version>2.9.8</jackson.version>
+        <java.version>1.8</java.version>
+        <junit.version>4.12</junit.version>
+        <hamcrest.version>2.1</hamcrest.version>
+        <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
+        <maven.resources.plugin.version>3.1.0</maven.resources.plugin.version>
     </properties>
 
     <dependencies>
@@ -67,10 +68,19 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.plugins.version}</version>
+                <version>${maven.compiler.plugin.version}</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>${maven.resources.plugin.version}</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
@@ -78,30 +88,30 @@
 
     <distributionManagement>
         <repository>
-            <id>info.company.releases</id>
-            <name>Company.info releases repository</name>
-            <url>http://nexus.dev.company.info:8080/nexus/content/repositories/releases</url>
+            <id>FDMG.releases</id>
+            <name>FDMG releases repository</name>
+            <url>https://nexus.fdmg.org/repository/releases</url>
         </repository>
         <snapshotRepository>
-            <id>info.company.snapshots</id>
-            <name>Company.info snapshots repository</name>
-            <url>http://nexus.dev.company.info:8080/nexus/content/repositories/snapshots</url>
+            <id>FDMG.snapshots</id>
+            <name>FDMG snapshots repository</name>
+            <url>https://nexus.fdmg.org/repository/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
-            <id>company.info</id>
-            <name>Company.info public repository</name>
-            <url>http://nexus.dev.company.info:8080/nexus/content/groups/public/</url>
+            <id>FDMG.public</id>
+            <name>FDMG public repository</name>
+            <url>https://nexus.fdmg.org/repository/public</url>
         </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
-            <id>company.info</id>
-            <name>Company.info public repository</name>
-            <url>http://nexus.dev.company.info:8080/nexus/content/groups/public/</url>
+            <id>FDMG.public</id>
+            <name>FDMG public repository</name>
+            <url>https://nexus.fdmg.org/repository/public</url>
         </pluginRepository>
     </pluginRepositories>
 
@@ -109,8 +119,8 @@
         <url>https://github.com/FDMediagroep/hamcrest-jackson</url>
         <connection>scm:git:git@github.com:FDMediagroep/hamcrest-jackson.git</connection>
         <developerConnection>scm:git:git@github.com:FDMediagroep/hamcrest-jackson.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
 

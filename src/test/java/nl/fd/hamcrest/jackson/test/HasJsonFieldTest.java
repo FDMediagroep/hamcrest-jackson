@@ -32,7 +32,7 @@ public class HasJsonFieldTest {
         ObjectNode author = jsonNodeFactory.objectNode();
         author.put("name", "William Shakespeare");
         author.put("dateOfBirth", "1564-04-23");
-        book.put("author", author);
+        book.set("author", author);
         book.put("publicationYear", 1960);
         book.put("paperback", true);
     }

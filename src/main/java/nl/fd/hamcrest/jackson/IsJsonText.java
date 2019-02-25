@@ -3,7 +3,6 @@ package nl.fd.hamcrest.jackson;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.NullNode;
 import org.hamcrest.Description;
-import org.hamcrest.Factory;
 import org.hamcrest.TypeSafeMatcher;
 
 import static org.hamcrest.Matchers.is;
@@ -41,7 +40,6 @@ public class IsJsonText<T extends JsonNode> extends TypeSafeMatcher<JsonNode> {
         description.appendText("isJsonText(").appendValue(text).appendText(")");
     }
 
-    @Factory
     public static <T extends JsonNode> IsJsonText<T> isJsonText(String text) {
         return new IsJsonText<T>(text);
     }

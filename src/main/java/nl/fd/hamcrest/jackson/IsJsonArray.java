@@ -2,7 +2,6 @@ package nl.fd.hamcrest.jackson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.hamcrest.Description;
-import org.hamcrest.Factory;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.hamcrest.TypeSafeMatcher;
@@ -71,7 +70,6 @@ public class IsJsonArray<T extends JsonNode> extends TypeSafeMatcher<JsonNode> {
         description.appendText("isJsonArray(").appendValue(matchers).appendText(")");
     }
 
-    @Factory
     public static <T extends JsonNode> IsJsonArray<T> isJsonArray(Object... array) {
         return new IsJsonArray<T>(array);
     }

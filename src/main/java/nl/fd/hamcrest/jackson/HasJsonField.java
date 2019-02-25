@@ -2,7 +2,6 @@ package nl.fd.hamcrest.jackson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.hamcrest.Description;
-import org.hamcrest.Factory;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeDiagnosingMatcher;
 
@@ -41,22 +40,18 @@ public class HasJsonField extends TypeSafeDiagnosingMatcher<JsonNode> {
         description.appendText("hasJsonField(").appendValue(fieldName).appendText(")");
     }
 
-    @Factory
     public static <T extends JsonNode> HasJsonField hasJsonField(String property, int value) {
         return new HasJsonField(property, IsJsonInt.isJsonInt(value));
     }
 
-    @Factory
     public static <T extends JsonNode> HasJsonField hasJsonField(String property, boolean value) {
         return new HasJsonField(property, IsJsonBoolean.isJsonBoolean(value));
     }
 
-    @Factory
     public static <T extends JsonNode> HasJsonField hasJsonField(String property, String value) {
         return new HasJsonField(property, IsJsonText.isJsonText(value));
     }
 
-    @Factory
     @SuppressWarnings("unchecked")
     public static <T extends JsonNode> HasJsonField hasJsonField(String property, Matcher<?>... valueMatchers) {
         return new HasJsonField(property, allOf((Matcher<? super Object>[]) valueMatchers));

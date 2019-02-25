@@ -2,7 +2,6 @@ package nl.fd.hamcrest.jackson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.hamcrest.Description;
-import org.hamcrest.Factory;
 import org.hamcrest.TypeSafeMatcher;
 
 import static org.hamcrest.Matchers.is;
@@ -35,7 +34,6 @@ public class IsJsonInt extends TypeSafeMatcher<JsonNode> {
         description.appendText("isJsonInt(").appendText(String.valueOf(value)).appendText(")");
     }
 
-    @Factory
     public static IsJsonInt isJsonInt(int value) {
         return new IsJsonInt(value);
     }
