@@ -1,10 +1,9 @@
 hamcrest-jackson
 ==============
+
 The Hamcrest Jackson library provides a set of matchers for Json node elements.
 
-The JavaDoc can be found at: http://files2.fd.nl/development/hamcrest-jackson/javadoc/  
-
-###How to use hamcrest-jackson in your project:
+### How to use hamcrest-jackson in your project:
 - Clone this project 
 - Build it using maven clean install 
 - Add it to your dependencies using 
@@ -12,14 +11,11 @@ The JavaDoc can be found at: http://files2.fd.nl/development/hamcrest-jackson/ja
 <dependency>
     <groupId>nl.fd</groupId>
       <artifactId>hamcrest-jackson</artifactId>
-      <version>1.0.5-SNAPSHOT</version>
+      <version>1.0.6-SNAPSHOT</version>
 </dependency>
 ```
 
-you can also download the latest release from:
-http://files2.fd.nl/development/hamcrest-jackson/binaries/1.0.4/hamcrest-jackson-1.0.4.jar
-
-###Example Usage
+### Example Usage
 Here we provide a code sample to give you a rough idea how easy to use this library is.
 ```
 JsonNode queryNode = mapper.readTree(someQueryBuilder.toString());
@@ -31,7 +27,7 @@ assertThat(queryNode,
 );
 ```
 
-###Matchers
+### Matchers
 The following matchers are provided: 
   - **HasJsonField** Matcher for checking if an object has a JSON field.
     - hasJsonField
