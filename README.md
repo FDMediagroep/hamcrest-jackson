@@ -1,5 +1,5 @@
 hamcrest-jackson
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 ==============
 
 The Hamcrest Jackson library provides a set of matchers for Json node elements.
@@ -52,6 +52,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/JHannema"><img src="https://avatars2.githubusercontent.com/u/5299964?v=4" width="100px;" alt="Joram Hannema"/><br /><sub><b>Joram Hannema</b></sub></a><br /><a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=JHannema" title="Code">💻</a> <a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=JHannema" title="Documentation">📖</a> <a href="#maintenance-JHannema" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/jmsnoeij"><img src="https://avatars3.githubusercontent.com/u/3830004?v=4" width="100px;" alt="Jeroen M Snoeij"/><br /><sub><b>Jeroen M Snoeij</b></sub></a><br /><a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=jmsnoeij" title="Code">💻</a> <a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=jmsnoeij" title="Documentation">📖</a> <a href="#maintenance-jmsnoeij" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/Krijger"><img src="https://avatars1.githubusercontent.com/u/3886732?v=4" width="100px;" alt="Quinten Krijger"/><br /><sub><b>Quinten Krijger</b></sub></a><br /><a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=Krijger" title="Code">💻</a> <a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=Krijger" title="Documentation">📖</a></td>
   </tr>
 </table>
 
