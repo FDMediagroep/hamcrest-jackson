@@ -1,4 +1,5 @@
 hamcrest-jackson
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 ==============
 
 The Hamcrest Jackson library provides a set of matchers for Json node elements.
@@ -40,3 +41,19 @@ The following matchers are provided:
   - **IsJsonText** Matcher for checking if an object is a JSON integer. 
     - isJsonText
  
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/JHannema"><img src="https://avatars2.githubusercontent.com/u/5299964?v=4" width="100px;" alt="Joram Hannema"/><br /><sub><b>Joram Hannema</b></sub></a><br /><a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=JHannema" title="Code">💻</a> <a href="https://github.com/FDMediagroep/hamcrest-jackson/commits?author=JHannema" title="Documentation">📖</a> <a href="#maintenance-JHannema" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
